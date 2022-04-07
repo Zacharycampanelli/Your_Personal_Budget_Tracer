@@ -1,0 +1,21 @@
+{
+    "name": "Your Personal Budget Tracker",
+    "short_name": "BudgetTracker",
+    "description": "An app is a fasat and easy way to track their money.",
+    "background_color": "#043778",
+    "theme_color": "#ffffff",
+    "start_url": "public/index.html",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "/public/icons/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/public/icons/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
