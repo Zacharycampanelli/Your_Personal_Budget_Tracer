@@ -8,12 +8,12 @@
     "display": "standalone",
     "icons": [
       {
-        "src": "/public/icons/icons-192.png",
+        "src": "/public/icons/icon-152x152.png",
         "type": "image/png",
         "sizes": "192x192"
       },
       {
-        "src": "/public/icons/icons-512.png",
+        "src": "/public/icons/icon-512x512.png",
         "type": "image/png",
         "sizes": "512x512"
       }
