@@ -11,7 +11,7 @@ const FILES_TO_CACHE = [
     './icons/icon-512x512.png',
   './js/idb.js',
   './js/index.js',
-  './models/transaction.js',
+  // './models/transaction.js',
 ];
 
 const APP_PREFIX = 'BudgetTracker-';
