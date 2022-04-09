@@ -10,9 +10,9 @@ const FILES_TO_CACHE = [
     './icons/icon-192x192.png',
     './icons/icon-384x384.png',
     './icons/icon-512x512.png',
-  './js/idb.js',
+  './js/db.js',
   './js/index.js',
-  // './models/transaction.js',
+ 
 ];
 
 const APP_PREFIX = 'BudgetTracker-';
@@ -26,7 +26,7 @@ self.addEventListener('install', function (e) {
       return cache.addAll(FILES_TO_CACHE);
     })
   );
-});
+  })
 
 self.addEventListener('activate', function (e) {
   e.waitUntil(
